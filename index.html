@@ -1,42 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LMA Scripts</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" />
-  </head>
-  <body>
-    <span class="year-today">1992</span>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LMA Scripts</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <p>this page is using this script <a href="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js" target="_blank" rel="noopener noreferrer">https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js</a> or this link <a href="https://kenvilar.github.io/lma-scripts/index.js" target="_blank" rel="noopener noreferrer">https://kenvilar.github.io/lma-scripts/index.js</a></p>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" />
+</head>
 
-    <p>So in your website, add:</p>
+<body>
+  <section>
+    <div class="px-[40px] py-[40px]">
+      <div class="max-w-[1440px] mx-auto">
+        <span class="year-today">1992</span>
 
-    <pre><code class="language-html">&lt;script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"&gt;&lt;/script&gt;</code></pre>
+        <p>this page is using this script <a href="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"
+            target="_blank" rel="noopener noreferrer">https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js</a> or
+          this link <a href="https://kenvilar.github.io/lma-scripts/index.js" target="_blank"
+            rel="noopener noreferrer">https://kenvilar.github.io/lma-scripts/index.js</a></p>
 
-    <p>or</p>
+        <p>So in your website, add:</p>
 
-    <pre><code class="language-html">&lt;script src="https://kenvilar.github.io/lma-scripts/index.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code class="language-html">&lt;script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"&gt;&lt;/script&gt;</code></pre>
 
-    <div>
-      Note:
-      jsDelivr caches the file, so it may still show the old version. You can force update it by purging the jsDelivr cache. <br/>
+        <p>or</p>
 
-      Open this URL in your browser: https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js <br/>
+        <pre><code class="language-html">&lt;script src="https://kenvilar.github.io/lma-scripts/index.js"&gt;&lt;/script&gt;</code></pre>
 
-      It should return something like success/ok.
+        <div>
+          Note:
+          jsDelivr caches the file, so it may still show the old version. You can force update it by purging the
+          jsDelivr cache. <br />
 
-      Then check CDN URL again: https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js
+          Open this URL in your browser: https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js <br />
+
+          It should return something like success/ok.
+
+          Then check CDN URL again: https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js
+        </div>
+      </div>
     </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
-    <!-- <script src="./index.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
+  <!-- <script src="./index.js"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+
 </html>
