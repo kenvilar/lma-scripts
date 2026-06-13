@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LMA Scripts</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- 1. Include the style theme (e.g., VS Code Dark or Github Dark) -->
+    <link rel="stylesheet" href="https://cloudflare.com">
   </head>
   <body>
     <span class="year-today">1992</span>
@@ -14,15 +17,15 @@
 
     <p>So in your website, add:</p>
 
-    <code>
-      <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
-    </code>
+    <pre><code class="language-html">
+    <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
+    </code></pre>
 
     <p>or</p>
 
-    <code>
-      <script src="https://kenvilar.github.io/lma-scripts/index.js"></script>
-    </code>
+    <pre><code class="language-html">
+    <script src="https://kenvilar.github.io/lma-scripts/index.js"></script>
+    </code></pre>
 
     <div>
       Note:
@@ -37,5 +40,10 @@
 
     <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
     <!-- <script src="./index.js"></script> -->
+
+    <!-- 2. Include the Highlight.js library -->
+    <script src="https://cloudflare.com"></script>
+    <!-- 3. Initialize highlighting on page load -->
+    <script>hljs.highlightAll();</script>
   </body>
 </html>
