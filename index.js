@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // LMA Console Signature With Website
   function printLMASignature() {
     console.log(`
     /*****************************************
@@ -9,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
      *****************************************/
     `);
   }
+  printLMASignature();
+
+  // Auto Update Current Year Text (Vanilla JS)
   function setLMACurrentYear() {
     const year = new Date().getFullYear();
 
@@ -16,7 +20,5 @@ document.addEventListener("DOMContentLoaded", () => {
       el.textContent = year;
     });
   }
-  
-  printLMASignature();
   setLMACurrentYear();
 });
