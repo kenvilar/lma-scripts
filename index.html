@@ -10,6 +10,20 @@
 
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" />
+
+  <style>
+    a {
+      color: #1a0dab;
+      text-decoration: underline;
+    }
+
+    .year-today {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -31,20 +45,23 @@
 
         <pre><code class="language-html">&lt;script src="https://kenvilar.github.io/lma-scripts/index.js"&gt;&lt;/script&gt;</code></pre>
 
-        <div>
-          Note:
+        <div class="opacity-[0.6] mt-[20px]">
+          Note: <br />
           jsDelivr caches the file, so it may still show the old version. You can force update it by purging the
           jsDelivr cache. <br />
 
-          Open this URL in your browser: https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js <br />
+          Open this URL in your browser: <a href="https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"
+            target="_blank" rel="noopener noreferrer">https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js</a>
+          <br />
 
-          It should return something like success/ok.
+          It should return something like success/ok. <br />
 
-          Then check CDN URL again: https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js
+          Then check CDN URL again: <a href="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js" target="_blank"
+            rel="noopener noreferrer">https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js</a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
   <!-- <script src="./index.js"></script> -->
