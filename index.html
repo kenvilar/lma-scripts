@@ -5,11 +5,35 @@
     <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LMA Scripts</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <span class="year-today">1992</span>
 
     <p>this page is using this script <a href="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js" target="_blank" rel="noopener noreferrer">https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js</a> or this link <a href="https://kenvilar.github.io/lma-scripts/index.js" target="_blank" rel="noopener noreferrer">https://kenvilar.github.io/lma-scripts/index.js</a></p>
+
+    <p>So in your website, add:</p>
+
+    <code>
+      <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
+    </code>
+
+    <p>or</p>
+
+    <code>
+      <script src="https://kenvilar.github.io/lma-scripts/index.js"></script>
+    </code>
+
+    <div>
+      Note:
+      jsDelivr caches the file, so it may still show the old version. You can force update it by purging the jsDelivr cache. <br/>
+
+      Open this URL in your browser: https://purge.jsdelivr.net/gh/kenvilar/lma-scripts/index.js <br/>
+
+      It should return something like success/ok.
+
+      Then check CDN URL again: https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js
+    </div>
 
     <script src="https://cdn.jsdelivr.net/gh/kenvilar/lma-scripts/index.js"></script>
     <!-- <script src="./index.js"></script> -->
